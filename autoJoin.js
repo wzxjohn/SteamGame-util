@@ -28,8 +28,6 @@ function tryJoinRoom()
 {
 	if(tj == -1)
 		return;
-  clearInterval(tryTimer);
-
 	leaveCurrentGame();
 }
  
@@ -46,9 +44,8 @@ function betterJoinGameID()
 				top.location.href = 'http://steamcommunity.com/minigame/towerattack/';
 				return;
 			}
- 
+ be
 			console.log('Failed to join room ' + tj);
-      betterJoinGameID( tj );
 		}
 	).fail( function( jqXHR ) {
 			var responseJSON = jqXHR.responseText.evalJSON();
@@ -59,7 +56,6 @@ function betterJoinGameID()
 			else
 				console.log('Failed to join room ' + tj);
  
-      betterJoinGameID( tj );
 		}
 	);
 }
