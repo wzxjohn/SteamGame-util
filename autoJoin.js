@@ -6,7 +6,6 @@
 // EXAMPLE:
 // tj = 44660;
 
-
 var tj = -1;
 
 function leaveCurrentGame( callback )
@@ -29,7 +28,8 @@ function tryJoinRoom()
 {
 	if(tj == -1)
 		return;
-  
+  clearInterval(tryTimer);
+
 	leaveCurrentGame();
 }
  
