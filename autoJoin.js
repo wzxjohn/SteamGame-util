@@ -1,5 +1,5 @@
 // SteamGame Autojoiner
-// Copy paste in console
+// Copy paste in console --- THIS IS CONSOLE ONLY --- Use Ctrl-Shift-J or F12 to open it.
 
 // do this in console when room ID is announced:
 // tj = roomid;
