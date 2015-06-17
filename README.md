@@ -1,1 +1,1 @@
-# SteamGame-names
+# SteamGame-util
